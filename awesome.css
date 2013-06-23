@@ -1,0 +1,305 @@
+
+body, html {
+
+    font-family: helvetica, arial;
+	color: #333347;
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	overflow-x:auto;
+	overflow-y:scroll;
+}
+
+h1 {
+	
+	font-size: 40px;
+	
+}
+
+a {
+	
+	color: #1C1C7E;
+}
+
+
+a:hover {
+	
+	text-decoration: underline;
+}
+
+form input[type=text] {
+	
+	height: 40px;
+	width: 530px;
+	border-radius: 4px;
+	font-size: 20px;
+	 padding: 3px 3px 2px;
+	color: #666;
+	border: 1px solid #bbb;
+}
+
+
+form #validate {
+	
+	color: #ECEEEC;
+	text-shadow: 0px 2px 2px #333347;
+	font-size: 20px;
+
+	
+	height: 50px;
+	width: 150px;
+	
+	border-radius: 4px;
+	background-color: #191970;
+	
+	background: -webkit-linear-gradient(top, #2424A3, #191970);
+	background:    -moz-linear-gradient(top, #2424A3, #191970);
+	background:     -ms-linear-gradient(top, #2424A3, #191970);
+	background:      -o-linear-gradient(top, #2424A3, #191970);
+	
+	border: 1px solid #333347;
+	
+	margin: 0px 0px 0px -10px;
+}
+
+#awesome {
+	
+}
+
+#awesome p {
+	
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#awesomeWrapper {
+	
+	padding-bottom: 95px;
+	min-height: 280px;
+}
+
+.bar {
+	
+	background-color: #191970;
+	color: #ECEEEC;
+    	margin-bottom: 50px;
+	padding: 4px 0px 5px 0px;
+	
+	border-bottom: 7px solid #333347;
+	
+	background: -webkit-linear-gradient(top, #2424A3, #191970);
+	background:    -moz-linear-gradient(top, #2424A3, #191970);
+	background:     -ms-linear-gradient(top, #2424A3, #191970);
+	background:      -o-linear-gradient(top, #2424A3, #191970);
+	
+	text-shadow: 0px 4px 7px #333347;
+}
+
+.leAwesome {
+	
+	margin: auto;
+	text-align: center;
+}
+
+
+#socialmedia {
+	
+	margin-top: -42px;
+	padding-bottom: 30px;
+	padding-left:380px;
+}
+
+
+#muhahaha {
+	
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#result {
+	
+	height: 100px;
+	margin-top: 10px;
+}
+
+
+#result > h3 {
+	
+	font-size: 23px;
+	margin: 0 0 10px;
+}
+
+#result .result {
+	    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    width: 200px;
+}
+
+#result .result > p {
+	
+	margin: 10px 0 0;
+}
+
+
+#result .result > ul {
+
+	color: #F3F3F6;
+	text-align: left;
+	
+        list-style-type: none;
+        padding: 5px;
+
+        background-color: #333347;
+        background: -webkit-linear-gradient(top, #333347, #22222F);
+        background:    -moz-linear-gradient(top, #333347, #22222F);
+        background:     -ms-linear-gradient(top, #333347, #22222F);
+        background:      -o-linear-gradient(top, #333347, #22222F);
+
+        border-radius: 3px;
+        border: 1px solid #000;
+
+        display: none;
+        position: absolute;
+
+}
+
+#result .result > ul > li {
+
+        border-bottom: 1px solid #333;
+        padding: 5px;
+}
+
+.result > ul > li > h4 {
+	
+	margin-bottom: 5px;
+}
+
+.result > ul > li {
+	
+	font-size: 12px;
+}
+
+
+#result .result:hover > ul {
+	
+	display: block;
+}
+
+
+
+#examples {
+	
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	background-color: #F3F3F6;
+	
+	overflow: auto;
+}
+
+#examples > .breadcrumb {
+	
+	font-size: 12px;
+    	text-decoration: none;
+}
+
+#examples > ul > li {
+	
+	overflow: auto;
+	border-bottom: 1px dashed #ddd;
+}
+
+
+
+#examples > ul {
+	
+	list-style-type: none;
+	margin-top: 0px;
+    	padding: 10px;
+}
+
+#examples > h2 {
+	
+	font-size: 27px;
+	text-align: left;
+	padding-left: 10px;
+	margin-bottom: 0px;
+}
+
+#examples > ul > li > h3 {
+	
+	float: left;
+	font-size: 23px;
+	margin: 10px 10px 10px 0px;
+}
+
+#examples > #uitleg > li > h3 {
+	
+	float: none;
+	font-size: 18px;
+}
+
+#examples > p {
+	
+	padding-left: 10px;
+    	text-align: left;
+}
+
+#examples > #uitleg > p {
+	
+}
+
+#examples > #uitleg,
+#examples > #uitleg > li {
+	
+	text-align: left;
+}
+
+#examples > ul > li > .result {
+	
+	float: right;
+}
+
+/*#examples > ul > li > .result > p {*/
+.result > p {
+	
+	border-bottom: 1px dashed #333347;
+	display:inline-block;
+}
+
+#examples > ul > li > .result > ul {
+	
+    background-color: #333347;
+
+        background: -webkit-linear-gradient(top, #333347, #22222F);
+        background:    -moz-linear-gradient(top, #333347, #22222F);
+        background:     -ms-linear-gradient(top, #333347, #22222F);
+        background:      -o-linear-gradient(top, #333347, #22222F);
+
+    border: 1px solid #22222F;
+    border-radius: 3px 3px 3px 3px;
+    color: #F3F3F6;
+    display: none;
+    list-style-type: none;
+    margin: -10px 0 0 30px;
+    min-width: 150px;
+    padding: 5px;
+    position: absolute;
+    text-align: left;
+}
+
+#examples > ul > li > .result > ul > li {
+	
+	border-bottom: 1px solid #36364A;
+	padding: 5px;
+}
+
+#examples > ul > li > .result:hover > ul {
+	
+	display: block;
+}
+
