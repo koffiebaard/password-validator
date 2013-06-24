@@ -1,6 +1,6 @@
 <?php
 
-$dataConnection = mysqli_connect('db.testbak.eu', 'test', 'testfuckingwoot', 'test');
+$dataConnection = mysqli_connect('whoopwhoop', 'whoop', 'whoooooooooooop', 'whoop?');
 
 
 class PassValidator {
