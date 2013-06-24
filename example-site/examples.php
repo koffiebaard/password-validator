@@ -7,11 +7,11 @@ $validator = new PassValidator;
 $validator->feedDB($dataConnection);
 
 $passwords['Enkele voorbeelden'] = array(
-'koek',
-'koekjes',
-'koek123',
-'koekjes123',
-'koek koek koek',
+'cook',
+'cookies',
+'cook123',
+'cookies123',
+'cookie cookie cookie',
 'w00tw00tw00t',
 'ZawllaPmnqw14485',
 'ZawllaPmnqw14485$$(#',
@@ -48,7 +48,7 @@ $passwords['Top 25 ergste wachtwoorden 2012'] = array(
 'password1'
 );
 
-$passwords['Wachtwoorden gegenereerd via Vault'] = array(
+$passwords['Passwords generated via getvau.lt'] = array(
 'msHS**$7[EX_',
 'mHsw!zjM0nWn*#',
 'mHsw!zs71@(gAJZh',
